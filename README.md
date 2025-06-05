@@ -31,13 +31,13 @@ Running the dbt project require passing either of the following vars since our s
 source db is Postgresql use:
 
 ```bash
- dbt run --vars "{'source_db':'smartcollect_pg'}" --profile-dir .
+ dbt run --vars "{'source_db':'database_pg'}" --profile-dir .
 ```
 
 else when the source db is clickhouse use:
 
 ```bash
-dbt run --vars "{'source_db':'smartcollect_ch'}" --profile-dir .
+dbt run --vars "{'source_db':'database_ch'}" --profile-dir .
 ```
 
 ### Resources:
